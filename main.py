@@ -254,7 +254,7 @@ def get_titles():
             </style>
         </head>
         <body>
-            <h2>Titulos disponibles:</h2>
+            <h2>Titulos disponibles: (esperar 20 segundos)</h2>
             {titulos_html}
             <img src="/images/cinta4.jpg" alt="Cinta" class="fixed-image"/>
         </body>
@@ -354,7 +354,7 @@ def listar_actores():
             </style>
         </head>
         <body>
-            <p>Actores disponibles:</p>
+            <p>Actores disponibles: (esperar 40 segundos) </p>
             {actores_html}
             <img src="/images/alfombraroja.jpg" alt="Alfombra Roja" class="fixed-image"/>
         </body>
@@ -455,7 +455,7 @@ def obtener_directores():
             </style>
         </head>
         <body>
-            <p>Directores disponibles:</p>
+            <p>Directores disponibles: (esperar 15 segundos)</p>
             {directores_html}
             <img src="/images/director.jpg" alt="Director" class="fixed-image"/>
         </body>
